@@ -42,7 +42,6 @@ This project predicts diabetes progression using various machine learning models
    ```bash
     deactivate
 
-
 ## Usage
 Run the Python script to execute the analysis and train the machine learning models. The script is named diabetes_prediction.py and can be run with:
     ```bash
