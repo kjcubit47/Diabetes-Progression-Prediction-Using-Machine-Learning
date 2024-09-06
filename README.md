@@ -8,6 +8,32 @@ This project predicts diabetes progression using various machine learning models
 - **Model Performance Evaluation:** Measures accuracy using MSE and R² score.
 - **Visualizations:** Includes heatmaps, distribution plots, and model comparison charts.
 
+
+## Model Performance Evaluation
+
+### Mean Squared Error (MSE)
+
+- **Definition:** Mean Squared Error (MSE) measures the average of the squared differences between the predicted values and the actual values. It quantifies how close the predicted values are to the actual values.
+- **Formula:** 
+  \[ \text{MSE} = \frac{1}{n} \sum_{i=1}^{n} (y_i - \hat{y}_i)^2 \]
+  where \( n \) is the number of data points, \( y_i \) is the actual value, and \( \hat{y}_i \) is the predicted value.
+- **Interpretation:**
+  - **Lower MSE:** Indicates better model performance, as the predictions are closer to the actual values.
+  - **Higher MSE:** Indicates poorer model performance, with predictions being more spread out from the actual values.
+
+### R-Squared (\( R^2 \))
+
+- **Definition:** R-Squared (\( R^2 \)) represents the proportion of the variance in the dependent variable that is predictable from the independent variables. It is a measure of how well the model explains the variability in the target variable.
+- **Formula:**
+  \[ R^2 = 1 - \frac{\text{SS}_{\text{res}}}{\text{SS}_{\text{tot}}} \]
+  where **SS\(_{\text{res}}\)** is the Residual Sum of Squares and **SS\(_{\text{tot}}\)** is the Total Sum of Squares.
+- **Interpretation:**
+  - **\( R^2 = 1 \):** Indicates a perfect fit; the model explains all the variability in the target variable.
+  - **\( R^2 = 0 \):** Indicates the model does not explain any variability beyond the mean of the target variable.
+  - **Negative \( R^2 \):** Indicates the model performs worse than a simple mean-based model.
+
+
+
 ## Installation
 
 ### Setting Up a Virtual Environment
