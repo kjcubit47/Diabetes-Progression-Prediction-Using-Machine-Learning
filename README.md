@@ -27,7 +27,6 @@ This project predicts diabetes progression using various machine learning models
   - **Negative \( R^2 \):** Indicates the model performs worse than a simple mean-based model.
 
 
-
 ## Installation
 
 ### Setting Up a Virtual Environment
